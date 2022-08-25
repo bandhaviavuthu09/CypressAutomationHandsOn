@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "cypress": "^10.6.0",
+    "cypress-sql-server": "^1.0.0"
+  }
+}
