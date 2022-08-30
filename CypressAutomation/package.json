@@ -5,7 +5,7 @@
   "scripts": {
     "test": "node_modules\\.bin\\cypress run",
     "headTest": "npm run test -- --headed",
-    "chromeTest": "npm run test -- --browser chrome",
+    "chromeTest": "npm run test --browser chrome",
     "postchrome-test": "jrm ./results/combined-report.xml \"./results/results-*.xml\"",
     "script-chrome": "npm run chrome-test || npm run postchrome-test",
     "recordDashboardTest": "npm run test -- --record --key 24b42eb3-30b1-41c1-9def-b29a3765e6a5 --reporter mochawesome",
