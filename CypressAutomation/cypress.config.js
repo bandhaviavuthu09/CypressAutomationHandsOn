@@ -21,6 +21,6 @@ module.exports = defineConfig({
       //return require('./cypress/plugins/index.js')(on, config)
         on('file:preprocessor', cucumber())
       },
-    specPattern: 'cypress/Integration/examples/BDD/*.feature'
+    specPattern: 'cypress/Integration/examples/Test3.js'
   },
 });
